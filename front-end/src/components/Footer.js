@@ -5,7 +5,7 @@ const Footer = () => {
     <footer>
       <div className="container">
         <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, provident?
+          @2022 RestInn.Inc Please follow us on Twitters.
         </p>
     </div>
   </footer>
