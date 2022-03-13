@@ -8,10 +8,10 @@ import {
 
 import HomePage from '../pages/HomePage';
 import AboutPage from "../pages/AboutPage"
-import ResortListingPage from "../pages/ResortListingPage";
+import PropertyListingPage from "../pages/PropertyListingPage";
 import LoginPage from "../pages/LoginPage";
 import RegistrationPage from "../pages/RegistrationPage";
-import ResortDescriptionPage from "../pages/ResortDescriptionPage"
+import PropertyDescriptionPage from "../pages/PropertyDescriptionPage"
 
 import '../assets/css/App.css';
 import '../assets/css/utilities.css';
@@ -26,11 +26,11 @@ const App = () =>
 
             <Route path="/" element={<HomePage  />} />
             <Route path="about" element={<AboutPage />} />
-            <Route path="resorts" element={<ResortListingPage  />} />
-            <Route path="resorts/:type" element={<ResortListingPage  />} />
+            <Route path="resorts" element={<PropertyListingPage  />} />
+            <Route path="resorts/:type" element={<PropertyListingPage  />} />
             <Route path="login" element={<LoginPage />} />
             <Route path="registration" element={<RegistrationPage />} />
-            <Route path="resortsDes/:id" element={<ResortDescriptionPage />} />
+            <Route path="resortsDes/:id" element={<PropertyDescriptionPage />} />
 
 
           </Routes>

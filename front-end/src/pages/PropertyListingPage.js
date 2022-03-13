@@ -2,7 +2,7 @@ import React, {useEffect} from 'react'
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ResortList from "../components/ResortList";
-const ResortListingPage = () => {
+const PropertyListingPage = () => {
 
   return (
     <div className="grid" id="main-container">
@@ -17,4 +17,4 @@ const ResortListingPage = () => {
   )
 }
 
-export default ResortListingPage
+export default PropertyListingPage

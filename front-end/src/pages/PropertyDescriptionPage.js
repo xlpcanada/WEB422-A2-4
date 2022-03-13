@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer  from '../components/Footer';
 import { useParams } from 'react-router-dom';
 
-const ResortDescriptionPage = () => {
+const PropertyDescriptionPage = () => {
 
    const [resort, setResort] = useState({
        id:0,
@@ -74,4 +74,4 @@ const ResortDescriptionPage = () => {
   )
 }
 
-export default ResortDescriptionPage
+export default PropertyDescriptionPage
