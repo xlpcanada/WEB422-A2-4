@@ -14,8 +14,8 @@ import MenuItem from '@mui/material/MenuItem';
 import SearchBar from './SearchBar';
 import { Link } from 'react-router-dom';
 
-const pages = [<Link to='/about'>About</Link>, <Link to='/resorts'>Resort Listing</Link>];
-const settings = [<Link to='/login'>Login</Link>, <Link to='/Registration'>Registration</Link>];
+const pages = [<Link to='/about'>About</Link>, <Link to='/resorts'>Vacation Properties</Link>];
+const settings = [<Link to='/Registration'>Sign Up</Link>, <Link to='/login'>Log In</Link>];
 
 const MAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -46,7 +46,7 @@ const MAppBar = () => {
             component="div"
             sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
           >
-            <Link to='/'>My Web Inn</Link>
+            <Link to='/'>Rest Inn</Link>
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>

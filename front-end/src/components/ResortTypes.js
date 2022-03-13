@@ -6,17 +6,17 @@ import img4 from '../assets/img/resort4.webp';
 import { Link } from 'react-router-dom';
 const images = [img1, img2, img3, img4];
 
-const TypeItem = ({id,title,image,price}) => {
+const TypeItem = ({id,type,image,price}) => {
   
   return  (
     <div className="resort-card">
 
-      <Link to = {`/resorts/${title}`}> 
+      <Link to = {`/resorts/${type}`}> 
           <img src={image} alt=""/>   
       </Link> 
 
       <div className="resortContent">
-          <h3>{title}</h3>
+          <h3>{type}</h3>
       </div>
 
   </div>
@@ -60,7 +60,7 @@ const ResortTypes = () => {
           <div className="grid grid-gap-1 grid-row-gap-2 grid-col-4">
 
           {types.map((t,i)=>
-              <TypeItem title={t} image={images[i%4]} />
+              <TypeItem type={t} image={images[i%4]} />
               )}
   
           </div>
